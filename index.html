@@ -1,88 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="auther" content="learning">
-        <title>my first projet</title>
-       <link rel="icon" href="-(9).jpeg" type="image/png">
+<html>
+<head>
+<title>Advanced Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-       <link rel="stylesheet" href="style.css" type="text/css">
-       <link rel="script. js" href="script.js">
+<body>
 
-    </head>
-    <section class="hero" id="new-arrival">
-     <h1 style="text-align:center; margin-top:50px;">Flash Sale</h1>
-     </section>
-    <body>
-     <main class="container">
-        <div class="box">
+<h1>Tic Tac Toe</h1>
 
-              <h3>Earbuds</h3>
-            <img src="image/_ (11).jpeg" alt="pic" width="100" height="100">
-            <p class="price">Price Rs.1,999  <del>Rs.2,499</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
+<h2 id="status">Player X Turn</h2>
 
-        </div>
+<div class="board">
 
-        <div class="box">
+<div class="cell" data-index="0"></div>
+<div class="cell" data-index="1"></div>
+<div class="cell" data-index="2"></div>
 
-            <h3>Smart Watch</h3>
-            <img src="image/Should You Ditch Your Fitness Tracker For an Apple Watch_.jpeg" alt="pic" width="100" height="100" >
-            <p class="price">Price Rs.2,550  <del>Rs.3,499</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
-        </div>
+<div class="cell" data-index="3"></div>
+<div class="cell" data-index="4"></div>
+<div class="cell" data-index="5"></div>
 
-        <div class="box">
-            <h3>Eco dot</h3>
-            <img src="image/Echo Dot.jpeg" alt="pic" width="100" height="100" >
-            <p class="price">Price Rs.4,500  <del>Rs.5,000</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
-        
-        </div>
-        <div class="box">
-            <h3>Mouse</h3>
-            <img src="image/Mercari_ Your Marketplace.jpeg" alt="pic" width="70" height="500" >
-            <p class="price">Price Rs.750  <del>Rs.1,000</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
-        
-        </div>
+<div class="cell" data-index="6"></div>
+<div class="cell" data-index="7"></div>
+<div class="cell" data-index="8"></div>
 
-        <div class="box">
-            <h3>key Bord</h3>
-            <img src="image/a4tech-keyboard-KM-720U.jpeg" alt="pic" width="100" height="100" >
-            <p class="price">Price Rs.1,500  <del>Rs.2,000</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
-        
-        </div>
-        <div class="box">
-            <h3>Headphones</h3>
-            <img src="image/_ (12).jpeg" alt="pic" width="100" height="100" >
-            <p class="price">Price Rs.1,750 <del>Rs.2,500</del></p>
-            <p class="Quantity">Quantity
-            <input class="qty" type="number">
-            </p>
-            <button class=" Add cart">Buy Now</button>
-        
-        </div>
-      
-     </main>
-     
-        
-    </body>
+</div>
 
+<button onclick="restartGame()">Restart Game</button>
+
+<script src="script.js"></script>
+
+</body>
 </html>
